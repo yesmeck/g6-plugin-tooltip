@@ -3,7 +3,7 @@
  * @author huangtonger@aliyun.com
  */
 
-import { Util } from '@ali/g6';
+import { Util } from '@antv/g6';
 const Base = require('@ali/g-base');
 
 const Plugin = function(cfg) {
