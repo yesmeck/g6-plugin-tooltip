@@ -1,8 +1,11 @@
 {
-  "name": "g6-plugin-tooltip",
+  "name": "@alipay/g6-plugin-tooltip",
   "version": "0.0.1",
   "main": "lib/index.js",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "http://registry.npm.alibaba-inc.com"
+  },
   "scripts": {
     "build": "babel src --out-dir lib"
   },
