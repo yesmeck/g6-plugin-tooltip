@@ -11,9 +11,8 @@
  * node.label 节点标签
  */
 import { Util } from '@ali/g6';
-import Base from '../base';
+import Base from './base';
 import NodeTool from './nodeTool';
-import './shape';
 
 const Plugin = function(cfg) {
   Plugin.superclass.constructor.call(this, cfg);
