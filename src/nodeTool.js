@@ -2,7 +2,7 @@
  * @fileOverview 节点右键工具
  * @author huangtonger@aliyun.com
  */
-import { Util } from '@ali/g6';
+import { Util } from '@antv/g6';
 
 function NodeTool(cfg) {
   Util.mix(this, cfg);
