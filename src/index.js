@@ -39,10 +39,12 @@ Util.extend(Plugin, Base);
 Util.augment(Plugin, {
   init() {
     const graph = this.get('graph');
+    console.log('tooltip init');
     graph.on('afterinit', () => {
-      nodeTool = new NodeTool(Util.mix({
+      console.log('afterinit');
+      const nodeTool = new NodeTool(Util.mix({
         graph,
-      }, { content }));
+      }, { content: this.get('content') }));
       this.set('nodeTool', nodeTool);
       this._clickShowNodeTool();
     });
@@ -63,4 +65,4 @@ Util.augment(Plugin, {
   },
 });
 
-odule.exports = Plugin;
+module.exports = Plugin;
