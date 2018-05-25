@@ -10,7 +10,7 @@
  * node.rank  分层权重
  * node.label 节点标签
  */
-import { Util } from '@ali/g6';
+import { Util } from '@antv/g6';
 import Base from './base';
 import NodeTool from './nodeTool';
 
