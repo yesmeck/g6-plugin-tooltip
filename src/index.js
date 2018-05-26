@@ -1,15 +1,3 @@
-/**
- * @fileOverview 图分析模版
- * @author huangtonger@aliyun.com
- * 保留字段:
- * node.vx, node.vy, node.x, node.y
- * node.to, node.from
- * node.visited, node.edges, node.links
- * edge.isTreeEdge、edge.lineWidth
- * 可配置字段:
- * node.rank  分层权重
- * node.label 节点标签
- */
 import { Util } from '@antv/g6';
 import Base from './base';
 import NodeTool from './nodeTool';

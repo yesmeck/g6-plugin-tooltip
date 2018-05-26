@@ -1,8 +1,3 @@
-/**
- * @fileOverview 插件基类
- * @author huangtonger@aliyun.com
- */
-
 import { Util } from '@antv/g6';
 const Base = require('@ali/g-base');
 
